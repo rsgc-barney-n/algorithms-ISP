@@ -1,0 +1,10 @@
+input
+Quadratic equation solver
+
+process
+1. start off by getting the program to take input, weather it be what type of equation it is (standard or vertex) and/or giving the equation.
+2. get the program to sort the equation
+3. get the program to solve the equation
+
+output
+a program that saves quadratic equations.
