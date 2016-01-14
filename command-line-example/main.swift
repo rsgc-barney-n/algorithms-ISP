@@ -1,4 +1,4 @@
-//
+// Noah Barney
 //  main.swift
 //  basic-command-line
 //
@@ -9,7 +9,7 @@
 import Foundation
 
 // Print welcome message on it's own line
-print("Welcome.")
+print("Welcome to the quadratic equation solver!")
 
 
 // Print prompt (but don't go to new line)
@@ -28,17 +28,34 @@ if let response = input {
 print("the actual response is: \(actualResponse)")
 
 
+// ask A B and C values
+//Ask A value
+print("What is your A value?")
+// Read A value
 
-// Ask about food preferences
+var a  = Int(readLine(stripNewline: true)!)!
+
+
+print("a is \(a)")
+//Ask B value
+print("What is your B value?")
+//Read B value
+var b = Int (readLine(stripNewline: true)!)!
+print("b is \(b)")
+//ask C value
+print("What is your C value?")
+// Read C value
+var c = Int (readLine(stripNewline: true)!)!
+print("c is \(c)")
 var validInput : Bool          // Status of input
 repeat {
     
     // Show prompts
-    print("\nWhat what are the a, b and, c inputs?")
-    print("A - Cereal")
-    print("B - Fruit")
-    print("C - Vegetables")
-    print("Select your favourite (A/B/C/Quit): ", terminator: "")
+    
+    var A = readLine(stripNewline: true)
+    var B = readLine(stripNewline: true)
+    var C = readLine(stripNewline: true)
+    //print("Select your favourite (A/B/C/Quit): ", terminator: "")
     
     // Get the user's input
     var givenFoodPreference = readLine(stripNewline: true)
